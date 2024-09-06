@@ -1,0 +1,81 @@
+body{
+    background-image: url('https://www.denofgeek.com/wp-content/uploads/2022/02/spaceship-and-black-hole-in-Interstellar.jpeg?fit=1800%2C1125');
+    background-size: cover; /* Escala la imagen para que cubra todo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;  /*Evita que la imagen se repita */
+    
+}
+.main-title {
+    background-color: gray;
+    color: #fff;
+    font-family: 'https://fonts.google.com/share?selection.family=Noto+Serif:ital,wght@0,100..900;1,100..900';
+    text-align: center;
+    font-size: 4em;
+}
+
+.subtitle{
+    font-family: 'https://fonts.google.com/share?selection.family=Noto+Serif:ital,wght@0,100..900;1,100..900|Unica+One';
+    color: #fff;
+    text-align: center;
+    margin: 100px;
+}
+
+h3{
+    font-family: 'https://fonts.google.com/share?selection.family=Noto+Serif:ital,wght@0,100..900;1,100..900|Unica+One';
+    color: #fff;   
+    margin: 10px auto;
+    font-size: 40px;
+    width: 1150px; 
+}
+
+.intro{
+    text-align: justify;
+    color: black;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.5;
+    width: 1150px;
+}
+
+.text{
+    text-align: justify;
+    color: black;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.4;
+    width: 1150px;
+
+}
+.footer-text{
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px auto;
+    background-color: white;
+    opacity: 0.6;
+    width: 1150px;
+    
+}
+
+.Personasjes h4{
+    text-align: justify;
+    color: black;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+    width: 1150px;
+    opacity: 0.4;
+}
+
+.Personasjes p{
+    text-align: justify;
+    color: black;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+    width: 1150px;
+    opacity: 0.4;
+}
+
+
