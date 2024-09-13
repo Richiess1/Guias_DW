@@ -1,7 +1,5 @@
-* {
-    background-color: black;
-    color:black;
-    text-align: center;
+html{
+    background-color: darkblue;
 }
 
 nav article{
@@ -13,7 +11,7 @@ nav article{
     box-sizing: border-box;
     margin: 10px 0.5%;
     border-radius: 15px;
-    background-color: darkblue;
+    background-color: black;
     color: white;
     box-shadow: 5px 5px lightblue;     
 }
