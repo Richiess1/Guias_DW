@@ -15,7 +15,7 @@ body{
 }
 
 
-section article{
+nav article{
     width: 45.3%;
     text-align: justify;
     border: 2px silver solid;
@@ -26,16 +26,15 @@ section article{
     border-radius: 15px;
     background-color: darkblue;
     color: white;
-    box-shadow: 5px 5px lightblue; 
-    
+    box-shadow: 5px 5px lightblue;     
 }
 
-section{
+nav{
     width: 90%;
     margin: 0 auto;
 }
 
-section h2{
+nav h2{
     color: white;
 }
 

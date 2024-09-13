@@ -3,6 +3,19 @@ html{
     color:black;
     text-align: center;
 }
+nav article{
+    width: 45.3%;
+    text-align: justify;
+    border: 2px silver solid;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0.5%;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+    box-shadow: 5px 5px lightblue;     
+}
 h1{
     color: white;
     font-size: 60px;
