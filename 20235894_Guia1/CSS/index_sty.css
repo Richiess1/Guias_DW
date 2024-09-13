@@ -1,8 +1,9 @@
-html{
+* {
     background-color: black;
     color:black;
     text-align: center;
 }
+
 nav article{
     width: 45.3%;
     text-align: justify;
@@ -25,18 +26,6 @@ h2{
     color: white;
     font-size: 30px;
 }
-body{
-    margin: 25px;
-}
 
-section h1{
-    background-color: darkred;
-    text-align: center;
-    font-size: 30px;
-}
 
-section a{
-    background-color: darkgrey;
-    
-}
 
