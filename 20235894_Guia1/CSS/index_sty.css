@@ -17,7 +17,7 @@ nav article{
     box-sizing: border-box;
     margin: 10px 0.5%;
     border-radius: 15px;
-    background-color: silver;
+    background-color: black;
     color: white;
     box-shadow: 5px 5px lightblue; 
     font-size: 30px;    
@@ -47,8 +47,8 @@ nav .Guia2 article{
     box-sizing: border-box;
     margin: 10px 0.5%;
     border-radius: 15px;
-    background-color: greenyellow;
-    color: white;
+    background-color: lightblue;
+    color: black;
     box-shadow: 5px 5px lightblue; 
     font-size: 30px;    
 }
