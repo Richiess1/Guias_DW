@@ -8,20 +8,7 @@ header {
     font-weight: bold;
     text-align: center;
 }
-nav article{
-    width: 45.3%;
-    text-align: center;
-    border: 2px silver solid;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
-    margin: 10px 0.5%;
-    border-radius: 15px;
-    background-color: black;
-    color: white;
-    box-shadow: 5px 5px lightblue; 
-    font-size: 30px;    
-}
+
 
 nav .Guia1 article{
     width: 45.3%;
