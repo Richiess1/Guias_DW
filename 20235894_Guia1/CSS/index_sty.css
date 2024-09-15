@@ -40,9 +40,14 @@ nav .Guia2 article{
     font-size: 30px;    
 }
 
-article a{
+.Guia1 article a{
     font-size: 20px;
     color: white;
+}
+
+.Guia2 article a{
+    font-size: 20px;
+    color: black;
 }
 header h1{
     color: black;
