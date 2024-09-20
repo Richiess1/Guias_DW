@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+*{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    background-color: #BBB;
+    color: #444;
+}
+
+h1{
+    font-size: 1.3em;
+    text-align: center;
+    color: #464d52;
+}
+
+/*Parte superior*/
+
+#Superior{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: #464d52;
+}
+
+#encabezado{
+    margin: 0px auto;
+    width: 960px;
+}
+
+#descripcion{
+    width: 360px;
+    height: 360px;
+    background-color: #888;
+    float: left;
+}
+
+#descripcion p{
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 180%;
+    text-align: justify;
+}
+
+/*Menu*/
+
+nav{
+    width: 960px;
+    font-size: 1.4em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px 0px 65px 0px;
+}
+
+nav ul li{
+    float: left;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    margin: 0em 0.5em;
+    display: block;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #AAA;
+    transform: scale(1.25);
+}
+
+#Inicio{
+    background: url(../imagenes/Recursos_guia_3/img/turismo/home.png)  no-repeat 0px 3px;
+    padding-left: 40px;
+}
+
+#Planes{
+    background: url(../imagenes/Recursos_guia_3/img/turismo/planes.png)  no-repeat 0px 3px;
+    padding-left: 40px;
+}
+
+#Galeria{
+    background: url(../imagenes/Recursos_guia_3/img/turismo/galeria.png)  no-repeat 0px 3px;
+    padding-left: 40px;
+}
+
+
