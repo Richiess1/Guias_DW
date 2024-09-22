@@ -3,23 +3,35 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Muli', sans-serif;
     text-align: justify;
+    margin-top: 130px;
+    margin-bottom: 50px;
 }
 
+
 header{ 
+    width: 100%;
+    top: 0;
+    left: 0;
     background: #16a085;
     height: 130px;
     overflow: hidden;
-    
+    position: fixed;    
 }
 footer{
+    
     margin-top: 20px;
     background: #16a085;
     height: 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
 }
 
 header div, footer div{
