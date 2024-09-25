@@ -1,4 +1,4 @@
-@import url("http://maxcdn.booystrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 
 *{
@@ -35,6 +35,13 @@ body{
 }
 
 .login span.un{
+    width: 10%;
+    text-align: center;
+    color: #0c6;
+    border-radius: 3px 0 0 3px;
+}
+
+.li{
     width: 10%;
     text-align: center;
     color: #0c6;
@@ -167,6 +174,10 @@ ul li{
     border-radius: 3px;
     font-weight: bold;
     margin-left: 50%;
+}
+
+.lock{
+    color: #006633;
 }
 
 
