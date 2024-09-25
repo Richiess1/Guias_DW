@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Document</title>
+</head>
+<body class="formdatos">
+    <form action="Ejercicio3.html" method="post">
+        <img src="./img/foto-perfil.jpg" alt="Foto perfil">
+        <h1>Perfil</h1>
+        <fieldset id="datos">
+            <legend>Datos</legend>
+            <table border="0">
+                <tr><td>Fecha de nacimiento:</td><td><input type="date" name="apellido"/></td></tr>
+                <tr><td>Ingrese su foto:</td><td><input type="file" name="foto"/></td></tr>
+                <tr><td>Nacionalidad:</td>
+                    <td>
+                        <input type="text" list="Nacionalidad"/>
+                        <datalist id="Nacionalidad">
+                            <option value="Salvadoreño">Salvadoreño(a)</option>
+                            <option value="Hondureño">Hondureño(a)</option>
+                            <option value="Guatemalteco">Guatemalteco(a)</option>
+                            <option value="Costarricense">Costarricense(a)</option>
+                            <option value="Nicaragüence">Nicaragüence(a)</option>
+                            <option value="Panameño">Panameño(a)</option>
+    
+                        </datalist>
+                    </td>
+                </tr>
+                <tr><td>Color favorito:</td><td><input type="color" name="color"/></td></tr>
+                <tr><td>Sexo:</td><td><input type="radio" name="sexo" value="mas" checked>Masculino <br>
+                <input type="radio" name="sexo" value="fem">Femenino</td></tr>
+                <tr><td>Edad:</td><td><input type="number" name="Edad" min="18" max="50"/></td></tr>
+                <tr><td>Dirección:</td><td><textarea rows="5" cols="30"></textarea></td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset id="temas">
+            <section>
+                <legend>Temas</legend>
+                Elija tema de interes: <br><br>
+                <input type="radio" name="tema" value="Ciencia" checked>Ciencia <br>
+                <input type="radio" name="tema" value="Arte">Arte<br>
+                <input type="radio" name="tema" value="Literatura">Literatura<br>
+                <input type="radio" name="tema" value="Tecnologia">Tecnologia<br>
+                <input type="radio" name="tema" value="Musica">Musica<br>
+                <input type="radio" name="tema" value="Informatica">Informatica<br><br>
+                <Select id="Selarea" multiple>
+                    <option value="Asp">Asp.net</option>
+                    <option value="vb">vb.net</option>
+                    <option value="c#">c#.net</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="Android">Android</option>
+                    <option value="Cisco">Curricula Cisco</option>
+                    <option value="Redes">Redes comunicacion Informatica</option>
+                    <option value="SQL">SQL</option>
+                    <option value="Oracle">Oracle</option>
+                    
+                </Select>
+            </section>  
+        </fieldset>
+            
+        <fieldset id="aficiones">
+            <section>
+                <legend>Aficiones</legend>
+                Elija su pasatiempo: <br><br>
+                <input type="checkbox" name="aficion" value="deporte" checked>Deporte <br>
+                <input type="checkbox" name="aficion" value="Musica"> Música <br>
+                <input type="checkbox" name="aficion" value="lectura"> Lectura <br>
+                <input type="checkbox" name="aficion" value="pesca"> Pesca <br>
+                <input type="checkbox" name="aficion" value="pasear"> Pasear <br>
+                <input type="checkbox" name="aficion" value="cine">Cine
+            </section>
+        </fieldset>
+        <button class="boton" type="submit">Enviar Información</button>
+    </form>
+    
+</body>
+</html>
