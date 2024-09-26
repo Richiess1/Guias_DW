@@ -1,0 +1,51 @@
+#encabezado{
+    margin: 0px auto;
+    width: 90%;
+}
+
+#imgDesc {
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+#descripcion{
+    width: 100%;
+}
+
+#descripcion p{
+    margin: 20px 0px 10px 0px;
+    color: white;
+    line-height: 140%;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#contenido{
+    width: 90%;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.plan {
+    width: 94%;
+    padding: 1.5%;
+    margin: 20px 1.5%;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    float: left;
+    text-align: justify;
+}
+
+.plan img{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.boton{
+    width: 40%;
+    float: right;
+}
