@@ -32,17 +32,17 @@ nav ul li a:hover {
 }
 
 nav ul li a#inicio {
-    background: url(/Guias/Guias_DW/20235894_Guia3/imagenes/Recursos_guia_3/img/turismo/home.png) no-repeat 0px 3px;
+    background: url(../img/turismo/home.png) no-repeat 0px 3px;
     padding-left: 40px;
 }
 
 nav ul li a#planes {
-    background: url(/Guias/Guias_DW/20235894_Guia3/imagenes/Recursos_guia_3/img/turismo/planes.png) no-repeat 0px 3px;
+    background: url(../img/turismo/planes.png) no-repeat 0px 3px;
     padding-left: 40px;
 }
 
 nav ul li a#galeria {
-    background: url(/Guias/Guias_DW/20235894_Guia3/imagenes/Recursos_guia_3/img/turismo/galeria.png) no-repeat 0px 3px;
+    background: url(../img/turismo/galeria.png) no-repeat 0px 3px;
     padding-left: 40px;
 }
 
@@ -51,35 +51,41 @@ nav ul li a#galeria {
     margin: 0px auto;
     width: 80%;
     min-width: 650px;
+    /* YA NO REACCIONARA SI LA PANTALLA ES MAS PEQUEÑA QUE 650px*/
     max-width: 960px;
-   
+    /*YA NO REACCIONARA SI LA PANTALLA ES MAS GRANDE QUE 960 px*/
 }
 
 #superior #encabezado #logo {
     margin: 2% 0px;
+    /*23/960=2%*/
     width: 21%;
+    /*200/960= 21%*/
     height: auto;
 }
 
 #imgDesc img {
     width: 62.5%;
-    
+    /* 600/960= 62.5% */
     height: auto;
     float: left;
 }
 
 #imgDesc {
     overflow: hidden;
+    /*obliga a cubrir a los elementos flotantes*/
 }
 
 #descripcion {
     width: 37.5%;
+    /* 360/960=0.375*/
     background-color: #888;
     float: left;
 }
 
 #descripcion p {
     margin: 5%;
+    /* 20/360 =5% */
     color: white;
     font-weight: bold;
     line-height: 170%;
@@ -94,10 +100,12 @@ nav ul li a#galeria {
     clear: left;
     overflow: auto;
     min-width: 650px;
+    /* YA NO REACCIONARA SI LA CAJA ES MAS PEQUEÑA DE 650px*/
     max-width: 960px;
+    /*YA NO REACCIONARA SI LA CAJA ES MAS GRANDE QUE 960 px*/
 }
 
-
+/* CONTENIDO DE LA PAGINA INDEX */
 .plan {
     width: 26.7%;
     /* 258/960= 27%*/
