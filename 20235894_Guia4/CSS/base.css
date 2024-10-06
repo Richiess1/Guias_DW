@@ -1,5 +1,5 @@
+/* FUENTES */
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
-
 *{
     font-family: 'Didact Gothic', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #bbb;
+    background-color: #BBB;
     color: #444;
 }
 
@@ -17,34 +17,38 @@ h1{
     color: #464d52;
 }
 
+/* PARTE SUPERIOR */
 #superior{
     width: 100%;
     padding: 2% 0px;
     background-color: #464d52;
 }
 
+
+/* PIE DE LA PAGINA*/
 footer{
     text-align: center;
     margin: 0;
-    font-size: 0.9em;
-    line-height: 2px;
+    font-size: .9em;
+    line-height: 2;
     clear: both;
     background-color: #464d52;
     color: white;
     width: 100%;
 }
 
+/*BOTON DE LA PAGINA INDEX */
 .boton{
-    background-color: #464d52;
+    background-color:#464d52;
     padding: 7px;
-    margin-top: 10px;
+     margin-top: 10px;
     border-radius: 5px;
     color: white;
     font-size: 0.9em;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    transition: color 1s;
+    transition: background 3s, color 1s;
 }
 
 .boton:hover{
@@ -58,4 +62,4 @@ footer{
     margin: 0px;
     display: block;
 }
-
+    

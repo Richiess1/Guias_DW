@@ -1,25 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Bakbak+One&display=swap");
 *{
     font-family: 'Bakbak One', cursive;
 }
-
 h1{
     font-size: 2rem;
 }
-
 p{
     font-size: 1rem;
+    text-align: justify;
 }
-
 div{
-    background-color: white;
+    background: white;
     border-radius: 10px;
     margin: 0 auto;
     padding: 2rem;
     box-sizing: border-box;
 }
-
 span{
     display: none;
     font-weight: bold;
@@ -28,35 +24,29 @@ span{
     color: red;
 }
 
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px) {
     html{
         font-size: 14px;
     }
-
     body{
         background-color: #03a9f4;
     }
     div{
         width: 95%;
     }
-    .smartphone{
+    .smartphones{
         display: inline-block;
     }
-
-
 }
-
-/*Tablets*/
-
-@media screen and (min-width: 481px) and (max-width: 768px){
+/*Estilo para dispositivos Tablet*/
+@media screen and (min-width: 481px) and (max-width:768px) {
     html{
         font-size: 15px;
     }
-
     body{
         background-color: #ff9800;
     }
-
     div{
         width: 85%;
     }
@@ -64,20 +54,17 @@ span{
         display: inline-block;
     }
 }
-
-@media screen and(min-width: 769px) {
+/*Estilos para dispositivos Desktop o PC*/
+@media screen and (min-width: 769px) {
     html{
         font-size: 16px;
     }
-
     body{
         background-color: #bbbbbb;
     }
-
     div{
         width: 75%;
     }
-
     .escritorio{
         display: inline-block;
     }

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400..900&display=swap');
+:root{
+    --color1: #FF6B6B;
+    --color2: #5588cc;
+    --color3: #e70927;
+    --color4: #FFF;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body{
+    padding-top: 120px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 120px;
+    background-color: var(--color2);
+    color: var(--color4);
+}
+
+header .cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    padding: 25px 30px;
+    font-weight: bold;
+    color: var(--color4);
+    font-size: 60px;
+    display: flex;
+}
+
+.indice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header nav{
+    
+    display: flex;
+    padding-bottom: 2px;
+    flex-direction: column;
+
+}
+
+header a{
+    font-size: 20px;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: var(--color1);
+}
+
+#sect1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/Imagenes_porta/Escuela\ img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/Imagenes_porta/ESEN_IMAGEN_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sect1 h1{
+    color: var(--color4);
+    font-size: 30px;
+}
+
+#sect2 h1{
+    color: var(--color4);
+    font-size: 30px;
+}
+
+#foda{
+    background-color: var(--color4);
+    height: 500px;
+    width: 1300px;
+    margin: 70px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+
+
+#foda .caja {
+    width: 450px;
+    height: 300px;
+    margin: 5px 0.5%;
+    border-radius: 12px;
+}
+
+.caja{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.caja h2:first-letter{
+    color: var(--color1);
+    font-size: 50px;
+    
+}
+
+.button{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--color1);
+    padding: 1px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.button:hover{
+    background-color: var(--color3);
+}
+
+@media screen and (min-width:840px){
+    
+    header .cont{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    header nav{
+        flex-direction: row;
+        margin: 0 auto;
+        margin-left: 470px;       
+    }
+}
+
