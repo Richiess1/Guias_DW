@@ -35,7 +35,7 @@ header .cont{
     
 }
 
-.logo{
+.logo a{
     padding: 25px 30px;
     font-weight: bold;
     color: var(--color4);
@@ -76,20 +76,7 @@ header a:hover{
     justify-content: center;
     text-align: center;
     height: 90vh;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/Imagenes_porta/Escuela\ img.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#sect2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 90vh;
-    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/Imagenes_porta/ESEN_IMAGEN_2.jpg);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Imagenes_porta/datos_personales.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,10 +87,44 @@ header a:hover{
     font-size: 30px;
 }
 
+
+#sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Imagenes_porta/Escuela\ img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #sect2 h1{
     color: var(--color4);
     font-size: 30px;
 }
+
+#sect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Imagenes_porta/ESEN_IMAGEN_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sect3 h1{
+    color: var(--color4);
+    font-size: 30px;
+}
+
 
 #foda{
     background-color: var(--color4);
@@ -131,9 +152,65 @@ header a:hover{
 
 .caja h2:first-letter{
     color: var(--color1);
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
+
+
+#retos{
+    background-color: var(--color4);
+    height: 500px;
+    width: 1300px;
+    margin: 70px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+#retos .caja {
+    width: 450px;
+    height: 300px;
+    margin: 5px 0.5%;
+    border-radius: 12px;
+}
+
+.caja{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#adicionales{
+    background-color: var(--color4);
+    height: 500px;
+    width: 1300px;
+    margin: 70px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+
+
+#adicionales .caja {
+    width: 450px;
+    height: 300px;
+    margin: 5px 0.5%;
+    border-radius: 12px;
+}
+
+.caja{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#adicionales ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+#adicionales ul a{
+    text-decoration: none;
+}
+
 
 .button{
     font-size: 40px;
@@ -149,6 +226,10 @@ header a:hover{
 
 .button:hover{
     background-color: var(--color3);
+}
+
+footer{
+    text-align: center;
 }
 
 @media screen and (min-width:840px){
