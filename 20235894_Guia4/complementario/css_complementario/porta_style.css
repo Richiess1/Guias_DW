@@ -138,17 +138,6 @@ header a:hover{
 }
 
 
-#foda .caja {
-    width: 450px;
-    height: 300px;
-    margin: 5px 0.5%;
-    border-radius: 12px;
-}
-
-.caja{
-    text-align: justify;
-    font-size: 20px;
-}
 
 .caja h2:first-letter{
     color: var(--color1);
@@ -166,17 +155,8 @@ header a:hover{
     margin-top: 80px;
     justify-content: space-evenly;
 }
-#retos .caja {
-    width: 450px;
-    height: 300px;
-    margin: 5px 0.5%;
-    border-radius: 12px;
-}
 
-.caja{
-    text-align: justify;
-    font-size: 20px;
-}
+    
 
 #adicionales{
     background-color: var(--color4);
@@ -190,17 +170,16 @@ header a:hover{
 }
 
 
-#adicionales .caja {
+.caja {
     width: 450px;
     height: 300px;
     margin: 5px 0.5%;
     border-radius: 12px;
-}
-
-.caja{
     text-align: justify;
     font-size: 20px;
 }
+
+
 
 #adicionales ul li{
     padding: 10px;
@@ -231,6 +210,173 @@ header a:hover{
 footer{
     text-align: center;
 }
+
+
+
+/* Estilo para DATOS*/
+.datos{
+    background-color: var(--color4);
+    height: 1100px;
+    width: 100%;
+    margin: 70px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+
+.datos h2{
+    text-align: left;
+}
+
+.datos p{
+    padding: 10px 0px 30px 0px;
+}
+.datos a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+#icons{
+    color: var(--color3);
+    align-self: center;
+    padding: 10px 10px;
+}
+
+.datos li{
+    list-style: none;
+    padding: 10px;
+}
+
+.caja1 {
+    width: 700px;
+    height: 1100px;
+    margin: 5px 0.5%;
+    border-radius: 12px;
+    text-align: justify;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.caja1 p{
+    text-align: left;
+}
+
+.caja1 img{
+    margin-left:225px ;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    border: #FF6B6B solid 3px;
+}
+
+/*Formato y estilo para MATERIA*/
+.materia{
+    background-color: var(--color4);
+    height: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+#sect4 {
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(91, 174, 243, 0.432), rgba(0,0,0,0.4)), url(../Imagenes_porta/Fondo_materia.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sect4 h1{
+    color: var(--color4);
+    font-size: 60px;
+}
+
+.descrip{
+    width: 1200px;
+    margin: 100px;
+    height: 400px ;
+    display: flex;
+}
+
+.descrip p{
+    display: flex;
+    text-align: justify;
+    margin: 0px 30px;
+    font-size: 23px;
+}
+
+#img_descrip{
+    display: flex;
+    height: 400px ;
+    width: 500px;
+}
+
+/*Formato y estilo para GUIAS*/
+
+.Guias{
+    background-color: var(--color4);
+    height: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.caja2 {
+    width: 500px;
+    height: 400px;
+    margin: 5px 0.5%;
+    border-radius: 12px;
+    text-align: justify;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.caja2 h2{
+    text-align: center;
+    background-color: var(--color2);
+    border-radius: 12px;
+    color: var(--color4);
+    font-size: 32px;
+}
+
+.caja2 p{
+    margin: 10px 10px 0px 10px;
+    text-align: justify;
+}
+
+.caja2 nav{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+}
+
+.caja2 nav a{
+    text-decoration: none;
+    color: var(--color1);
+    margin: 10px 0px 10px 0px;
+}
+
+.caja2 nav a:hover{
+    color: var(--color2);
+}
+
 
 @media screen and (min-width:840px){
     
