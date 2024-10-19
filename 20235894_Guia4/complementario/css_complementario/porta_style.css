@@ -263,7 +263,7 @@ footer{
 }
 
 .caja1 img{
-    margin-left:225px ;
+    margin-left:100px ;
     margin-bottom: 20px;
     border-radius: 13px;
     border: #FF6B6B solid 3px;
@@ -377,19 +377,216 @@ footer{
     color: var(--color2);
 }
 
+@media screen and (min-width: 1024px) {
+    body {
+        padding-top: 120px;
+    }
 
-@media screen and (min-width:840px){
-    
-    header .cont{
+    header {
+        height: 120px;
+    }
+
+    .logo a {
+        font-size: 60px;
+        padding: 25px 30px;
+    }
+
+    header .cont {
         flex-direction: row;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
     }
 
-    header nav{
+    header nav {
         flex-direction: row;
-        margin: 0 auto;
-        margin-left: 470px;       
+        margin-left: 470px;
+    }
+
+    header a {
+        font-size: 20px;
+        padding: 5px 12px;
+    }
+
+    #sect1, #sect2, #sect3, #sect4 {
+        height: 90vh;
+        background-size: cover;
+    }
+
+    .button {
+        font-size: 40px;
+        padding: 1px 30px;
+    }
+
+    .caja, .caja1, .caja2 {
+        width: 450px;
+        height: 300px;
+    }
+    #foda, #retos, #adicionales{
+        width: 1300px;
+        height: 700px;
+    }
+
+    .Guias {
+        width: 1300px;
+        height: 1170px;
+    }
+
+    .descrip {
+        flex-direction: row;
+        width: 1200px;
+        height: 400px;
+    }
+
+    .descrip p {
+        font-size: 23px;
+        margin: 0px 30px;
+    }
+
+    #img_descrip {
+        width: 500px;
+        height: 400px;
     }
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding-top: 80px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    header .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo a {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    header nav {
+        margin-left: 0;
+    }
+
+    header a {
+        font-size: 18px;
+    }
+
+    #sect1, #sect2, #sect3, #sect4 {
+        height: 60vh;
+        background-size: cover;
+    }
+
+    .button {
+        font-size: 30px;
+        padding: 10px 25px;
+    }
+
+    .caja, .caja1, .caja2 {
+        width: 350px;
+    }
+
+    #foda, #retos, #adicionales, .Guias {
+        width: 100%;
+        height: auto;
+    }
+
+    .descrip {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .descrip p {
+        margin: 10px 0;
+    }
+
+    #img_descrip {
+        width: 100%;
+    }
+
+    .Guias{
+        margin-top: 35px;
+        justify-content: center;
+    }
+
+    .materia{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    .logo a {
+        font-size: 40px;
+        padding: 10px 15px;
+    }
+
+    header a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    header .cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sect1, #sect2, #sect3, #sect4 {
+        height: 50vh;
+    }
+
+    .button {
+        font-size: 25px;
+        padding: 5px 20px;
+    }
+
+    .caja, .caja1, .caja2 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    #foda, #retos, #adicionales, .Guias {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .descrip {
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .descrip p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    #img_descrip {
+        width: 100%;
+        height: auto;
+    }
+
+    .materia, .datos {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
 
