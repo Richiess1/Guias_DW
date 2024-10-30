@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./RecursosGuia6/css/estiloComp.css">
+    <title>Validación de Ficha de Estudiante</title>
+</head>
+<body>
+
+    <form id="studentForm">
+        <label for="carnet">Carnet:</label>
+        <input type="text" id="carnet" required>
+        <br>
+
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" required>
+        <br>
+
+        <label for="dui">DUI:</label>
+        <input type="text" id="dui" required>
+        <br>
+
+        <label for="nit">NIT:</label>
+        <input type="text" id="nit" required>
+        <br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" required>
+        <br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" required>
+        <br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" min="0" required>
+        <br>
+
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+    </form>
+
+    <div id="mensaje" style="color: red;"></div>
+
+    <script>
+        function validarFormulario() {
+            const carnet = document.getElementById("carnet").value;
+            const nombre = document.getElementById("nombre").value;
+            const dui = document.getElementById("dui").value;
+            const nit = document.getElementById("nit").value;
+            const fechaNacimiento = document.getElementById("fechaNacimiento").value;
+            const correo = document.getElementById("correo").value;
+            const edad = document.getElementById("edad").value;
+            const mensaje = document.getElementById("mensaje");
+
+            // Expresiones regulares para validar los campos
+            const carnetRegex = /^[A-Z]{2}\d{3}$/;
+            const nombreRegex = /^[a-zA-ZÀ-ÿ\s]+$/;
+            const duiRegex = /^\d{8}-\d$/;
+            const nitRegex = /^\d{4}-\d{6}-\d{3}-\d$/;
+            const correoRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+            let errores = [];
+
+            // Validación de Carnet
+            if (!carnetRegex.test(carnet)) {
+                errores.push("Carnet debe tener el formato de dos letras y tres números (Ej: AB001).");
+            }
+
+            // Validación de Nombre Completo
+            if (!nombreRegex.test(nombre)) {
+                errores.push("El nombre completo no debe contener números o caracteres especiales.");
+            }
+
+            // Validación de DUI
+            if (!duiRegex.test(dui)) {
+                errores.push("DUI debe tener el formato ########-#.");
+            }
+
+            // Validación de NIT
+            if (!nitRegex.test(nit)) {
+                errores.push("NIT debe tener el formato ####-######-###-#.");
+            }
+
+            // Validación de Fecha de Nacimiento
+            if (!fechaNacimiento) {
+                errores.push("Debe ingresar una fecha de nacimiento.");
+            }
+
+            // Validación de Correo Electrónico
+            if (!correoRegex.test(correo)) {
+                errores.push("Debe ingresar un correo electrónico válido.");
+            }
+
+            // Validación de Edad
+            if (isNaN(edad) || edad < 0) {
+                errores.push("Edad debe ser un número positivo.");
+            }
+
+            // Mostrar errores o mensaje de éxito
+            if (errores.length > 0) {
+                mensaje.innerHTML = errores.join("<br>");
+            } else {
+                mensaje.innerHTML = "Formulario enviado correctamente.";
+            }
+        }
+    </script>
+
+</body>
+</html>
